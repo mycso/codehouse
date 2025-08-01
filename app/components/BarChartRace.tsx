@@ -12,7 +12,7 @@ import {
     Legend,
 } from 'chart.js';
 import data from '../lib/data.json' // Adjust the path based on your project structure
-import AnimatedNumber from './PopulationLabels';
+import AnimatedNumber from './AnimatedNumber';
 import { getCountryCode } from '../lib/getCountryCode';
 
 ChartJS.register(
